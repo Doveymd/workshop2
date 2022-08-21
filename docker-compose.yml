@@ -16,7 +16,7 @@ services:
       - DB_HOST=nctutorials.cl9qamsflzxu.us-east-2.rds.amazonaws.com
       - DB_PORT=5432
       - DATABASE=postgres
-      - VIRTUAL_HOST=aws ecr get-login-password --region us-east-2 | docker login --username AWS --password-stdin 301566501613.dkr.ecr.us-east-2.amazonaws.com
+      - VIRTUAL_HOST=ec2-3-135-91-52.us-east-2.compute.amazonaws.com
       - VIRTUAL_PORT=8000
   nginx:
     build: ./nginx
